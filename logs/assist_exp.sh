@@ -1,4 +1,5 @@
 python main.py --dataset=assist --train_max_seq_len=4289 --eval_max_seq_len=8213 --n_epochs=100
+
 Loading Assisment...
 training data:
  n_students: 3274
@@ -10,8 +11,10 @@ test data:
  n_questions: 124
  total answers: 117567
  longest: 8214
+
 There are 1 GPU(s) available.
 We will use the GPU: GeForce RTX 3090
+
 Start Training: Epoch 1
 Training steps: 10 Loss: 0.013280992396175861
 Training steps: 20 Loss: 0.019030248746275902
